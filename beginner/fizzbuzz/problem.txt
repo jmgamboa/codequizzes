@@ -1,0 +1,3 @@
+Right a program that prings 0-n when the number designated to go first says the number 1
+any number divisible by three is replaced by the word fizz and 
+any divisible by five by the word buzz. Numbers divisible by both prints fizz buzz. 
