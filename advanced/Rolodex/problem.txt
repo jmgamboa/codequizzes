@@ -3,10 +3,15 @@ This is intended to be a small coding exercise meant to gauge your programming s
 Package up your response in a .out file
 
 The problem
-You’re tasked with taking entries of personal information in multiple formats and normalizing each entry into a standard JSON format. Write your formatted, valid JSON out to a file with two-space indentation and keys sorted alphabetically.
+You’re tasked with taking entries of personal information in multiple formats 
+and normalizing each entry into a standard JSON format. 
+Write your formatted, valid JSON out to a file with two-space indentation and keys sorted alphabetically.
 
 Input
-Your program will be fed an input file of n lines. Each line contains “entry” information, which consists of a first name, last name, phone number, color, and zip code.
+Your program will be fed an input file of n lines. 
+Each line contains “entry” information,
+which consists of 
+a first name, last name, phone number, color, and zip code.
 
 The order and format of these lines vary in three separate ways. 
 The three different formats are as follows:
@@ -20,6 +25,9 @@ Some lines may be invalid and should not interfere with the processing of subseq
 Output
 The program should write a valid, formatted JSON object out to std.out. The JSON representation should be indented with two spaces and the keys should be sorted in ascending order.
 
-Successfully processed lines should result in a normalized addition to the list associated with the “entries” key. 
-For lines that were unable to be processed, a line number i (where 0 ≤ i < n) for each faulty line should be appended to the list associated with the “errors” key.
+Successfully processed lines should result in a normalized addition 
+to the list associated with the “entries” key. 
+For lines that were unable to be processed, 
+a line number i (where 0 ≤ i < n) for each faulty line 
+should be appended to the list associated with the “errors” key.
 The “entries” list should be sorted in ascending alphabetical order by (last name, first name).
