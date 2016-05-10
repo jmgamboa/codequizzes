@@ -1,2 +1,10 @@
 
-There are one-hundred light switches in a row. They are all initially off. The act of ‘switching’ is changing the light from its current state to its opposite state (e.g. on to off, and vice-versa). You walk the row of light switches multiple times. The first pass you switch each one; the second pass, you switch every second; the third, every third and so on, until you’ve reached one-hundred passes. Write a function that calculates how many lights are switched on at the end of the hundred passes. Python is preferred for this question.
+There are one-hundred light switches in a row. They are all initially off. 
+The act of ‘switching’ is changing the light from its current state to its opposite state (e.g. on to off, and vice-versa). 
+You walk the row of light switches multiple times. 
+The first pass you switch each one; 
+the second pass, you switch every second;
+the third, every third and so on, 
+until you’ve reached one-hundred passes. 
+Write a function that calculates how many lights are switched on at the end of the hundred passes. 
+Python is preferred for this question.
